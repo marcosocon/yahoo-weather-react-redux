@@ -3,6 +3,10 @@ This web application, allows the user to visualize the weather of different loca
 
 Everything is done in react, implementing redux, in the part of the styles implement SASS
 
+### TODO:
+- Add more UT's
+- Implement weather unit conversion.
+
 ### Getting started
 ```
 $ yarn install
@@ -11,7 +15,6 @@ Start the server
 ```
 $ yarn start
 ```
-Check syntax errors
+Run tests + see coverage
 ```
-$ yarn lint
-```# yahoo-weather-react-redux
+$ yarn test --coverage
